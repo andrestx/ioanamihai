@@ -1,0 +1,489 @@
+{
+  "generatedAt": "2026-07-06T21:04:13.316903+00:00",
+  "albumCount": 10,
+  "itemCount": 98,
+  "albums": [
+    {
+      "id": "1-brazi-day-1",
+      "order": 1,
+      "title": "Brazi Day 1",
+      "folder": "photos/1. Brazi Day 1",
+      "cover": "DSC_1004.png",
+      "items": [
+        {
+          "file": "DSC_1004.png",
+          "type": "image"
+        },
+        {
+          "file": "DSC_1064.JPG",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "id": "2-acasa1",
+      "order": 2,
+      "title": "Acasa1",
+      "folder": "photos/2. Acasa1",
+      "cover": "DSC_1126.png",
+      "items": [
+        {
+          "file": "DSC_1126.png",
+          "type": "image"
+        },
+        {
+          "file": "DSC_1164.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_1244.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_1245.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_1299.JPG",
+          "type": "image"
+        },
+        {
+          "file": "DSC_1314.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_1319.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_1320.jpg",
+          "type": "image"
+        },
+        {
+          "file": "DSC_1321.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "id": "3-acasa2",
+      "order": 3,
+      "title": "Acasa2",
+      "folder": "photos/3. Acasa2",
+      "cover": "DSC_0017.jpg",
+      "items": [
+        {
+          "file": "DSC_0008.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0010.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0017.jpg",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0031.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0057.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0058.jpg",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0059.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0060.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0199.JPG",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0251.JPG",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0402.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0403.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0404.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0405.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0406.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0448.JPG",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0449.JPG",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0452.JPG",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0492.JPG",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "id": "4-nasi1",
+      "order": 4,
+      "title": "Nasi1",
+      "folder": "photos/4. Nasi1",
+      "cover": "DSC_0689.JPG",
+      "items": [
+        {
+          "file": "DSC_0689.JPG",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0731.JPG",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0788.JPG",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0845.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0846.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0847.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0848.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0969.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "id": "5-nasi2",
+      "order": 5,
+      "title": "Nasi2",
+      "folder": "photos/5. Nasi2",
+      "cover": "DSC_0065.JPG",
+      "items": [
+        {
+          "file": "DSC_0065.JPG",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0075.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0076.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0077.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0079.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0086.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0208.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "id": "6-georgi1",
+      "order": 6,
+      "title": "Georgi1",
+      "folder": "photos/6. Georgi1",
+      "cover": "DSC_0001.jpg",
+      "items": [
+        {
+          "file": "DSC_0001.jpg",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0368.JPG",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0416.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0417.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0580.JPG",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "id": "7-georgi2",
+      "order": 7,
+      "title": "Georgi2",
+      "folder": "photos/7. Georgi2",
+      "cover": "DSC_0245.mp4",
+      "items": [
+        {
+          "file": "DSC_0245.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0246.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0247.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0248.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "id": "8-cu-camionu",
+      "order": 8,
+      "title": "Cu Camionu'",
+      "folder": "photos/8. Cu Camionu'",
+      "cover": "DSC_0367.jpg",
+      "items": [
+        {
+          "file": "DSC_0347.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0348.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0365.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0366.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0367.jpg",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0368.jpg",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0369.jpg",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0371.jpg",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0372.jpg",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0373.jpg",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0374.jpg",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0375.jpg",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0376.jpg",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0377.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0378.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0379.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0380.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0381.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0382.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0383.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0384.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0385.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0386.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0387.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0388.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "id": "9-acasa3",
+      "order": 9,
+      "title": "Acasa3",
+      "folder": "photos/9. Acasa3",
+      "cover": "DSC_0582.JPG",
+      "items": [
+        {
+          "file": "DSC_0413.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0414.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0475.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0476.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0554.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0555.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0572.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0582.JPG",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0678.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0724.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0780.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0888.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0986.MOV",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "id": "10-acasa4",
+      "order": 10,
+      "title": "Acasa4",
+      "folder": "photos/10. Acasa4",
+      "cover": "DSC_0327.jpg",
+      "items": [
+        {
+          "file": "DSC_0057.MOV",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0249.MOV",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0250.MOV",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0326.mp4",
+          "type": "video"
+        },
+        {
+          "file": "DSC_0327.jpg",
+          "type": "image"
+        },
+        {
+          "file": "DSC_0328.jpg",
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}

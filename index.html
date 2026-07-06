@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mihai &amp; Ioana — Galerie foto</title>
+<meta name="description" content="Toate pozele și video-urile de la nunta noastră, într-un singur loc.">
+<meta property="og:title" content="Mihai &amp; Ioana — Galerie foto">
+<meta property="og:description" content="Toate pozele și video-urile de la nunta noastră, într-un singur loc.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%F0%9F%92%90</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Jost:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Forme SVG reutilizate (o frunză + o floare), folosite mai jos prin <use> -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="leaf" viewBox="-10 -32 20 34">
+      <path d="M0,2 C6,-4 8,-16 0,-32 C-8,-16 -6,-4 0,2 Z"/>
+    </symbol>
+    <symbol id="bloom" viewBox="-16 -16 32 32">
+      <circle cx="0" cy="-8" r="6.5"/>
+      <circle cx="7.6" cy="-2.5" r="6.5"/>
+      <circle cx="4.7" cy="6.5" r="6.5"/>
+      <circle cx="-4.7" cy="6.5" r="6.5"/>
+      <circle cx="-7.6" cy="-2.5" r="6.5"/>
+    </symbol>
+    <symbol id="dot" viewBox="-4 -4 8 8">
+      <circle cx="0" cy="0" r="4"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ============== ECRAN DE INTRO ============== -->
+<div id="intro" class="intro" role="button" tabindex="0" aria-label="Atinge pentru a continua către galerie">
+
+  <svg class="intro-florals intro-florals--tl" viewBox="0 0 180 160" aria-hidden="true">
+    <use href="#leaf" transform="translate(18,18) rotate(-20) scale(1.5)" fill="var(--color-sage-dark)"/>
+    <use href="#leaf" transform="translate(55,6) rotate(20) scale(1.2)" fill="var(--color-sage)"/>
+    <use href="#leaf" transform="translate(8,60) rotate(-65) scale(1.3)" fill="var(--color-sage-dark)"/>
+    <use href="#leaf" transform="translate(75,38) rotate(-5) scale(1.1)" fill="var(--color-sage)"/>
+    <use href="#leaf" transform="translate(38,78) rotate(-105) scale(1.15)" fill="var(--color-sage-dark)"/>
+    <use href="#leaf" transform="translate(105,18) rotate(35) scale(0.9)" fill="var(--color-sage)"/>
+    <use href="#leaf" transform="translate(112,68) rotate(0) scale(0.8)" fill="var(--color-sage-dark)"/>
+    <use href="#leaf" transform="translate(65,100) rotate(-130) scale(0.85)" fill="var(--color-sage)"/>
+    <use href="#bloom" transform="translate(48,44) scale(1.15)" fill="var(--color-rose)"/>
+    <use href="#dot" transform="translate(48,44) scale(1.15)" fill="var(--color-gold)" opacity="0.8"/>
+    <use href="#bloom" transform="translate(95,85) scale(0.85)" fill="var(--color-bloom-white)"/>
+    <use href="#dot" transform="translate(95,85) scale(0.85)" fill="var(--color-gold)" opacity="0.8"/>
+  </svg>
+
+  <svg class="intro-florals intro-florals--br" viewBox="0 0 220 200" aria-hidden="true">
+    <use href="#leaf" transform="translate(202,182) rotate(160) scale(1.3)" fill="var(--color-sage-dark)"/>
+    <use href="#leaf" transform="translate(168,192) rotate(195) scale(1.05)" fill="var(--color-sage)"/>
+    <use href="#leaf" transform="translate(210,145) rotate(110) scale(1.1)" fill="var(--color-sage-dark)"/>
+    <use href="#leaf" transform="translate(150,160) rotate(170) scale(0.9)" fill="var(--color-sage)"/>
+    <use href="#leaf" transform="translate(178,120) rotate(75) scale(0.8)" fill="var(--color-sage-dark)"/>
+    <use href="#bloom" transform="translate(170,155) scale(0.95)" fill="var(--color-rose)"/>
+    <use href="#dot" transform="translate(170,155) scale(0.95)" fill="var(--color-gold)" opacity="0.8"/>
+    <use href="#bloom" transform="translate(128,135) scale(0.7)" fill="var(--color-bloom-white)"/>
+    <use href="#dot" transform="translate(128,135) scale(0.7)" fill="var(--color-gold)" opacity="0.8"/>
+  </svg>
+
+  <div class="intro-content">
+    <p class="intro-kicker">Fiecare familie are o poveste</p>
+    <div class="intro-names">Mihai <span class="amp">&amp;</span> Ioana</div>
+    <p class="intro-subtitle">Bine ați venit în galeria noastră foto</p>
+    <div class="intro-hint">Atinge pentru a continua</div>
+  </div>
+</div>
+
+<!-- ============== APLICAȚIA ============== -->
+<div id="app" class="app" hidden>
+  <header class="site-header">
+    <p class="site-kicker">Fiecare familie are o poveste</p>
+    <h1 class="site-title">Mihai <span class="amp">&amp;</span> Ioana</h1>
+    <p class="site-tagline">Bine ați venit în galeria noastră foto</p>
+  </header>
+
+  <main class="site-main">
+    <section id="view-overview" class="view">
+      <div id="albums-grid" class="albums-grid"></div>
+      <p id="empty-state" class="empty-state" hidden>Nu există încă poze în galerie. Reveniți în curând!</p>
+      <p id="error-state" class="error-state" hidden>Galeria nu a putut fi încărcată. Încearcă să reîmprospătezi pagina.</p>
+    </section>
+
+    <section id="view-detail" class="view" hidden>
+      <button id="back-btn" class="back-btn" type="button">← Înapoi la albume</button>
+      <h2 id="album-title" class="album-title"></h2>
+      <p id="album-count" class="album-count"></p>
+      <div id="photos-grid" class="photos-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Cu drag, Mihai &amp; Ioana 🤍</p>
+  </footer>
+</div>
+
+<!-- ============== LIGHTBOX ============== -->
+<div id="lightbox" class="lightbox" hidden>
+  <button id="lightbox-close" class="lightbox-btn lightbox-close" aria-label="Închide">✕</button>
+  <button id="lightbox-prev" class="lightbox-btn lightbox-prev" aria-label="Poza precedentă">‹</button>
+  <button id="lightbox-next" class="lightbox-btn lightbox-next" aria-label="Poza următoare">›</button>
+  <div class="lightbox-stage" id="lightbox-stage"></div>
+  <div class="lightbox-toolbar">
+    <span id="lightbox-counter" class="lightbox-counter"></span>
+    <div class="lightbox-actions">
+      <button id="lightbox-slideshow" class="lightbox-action" type="button">▶ Prezentare</button>
+      <a id="lightbox-download" class="lightbox-action" download>⬇ Descarcă</a>
+    </div>
+  </div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
